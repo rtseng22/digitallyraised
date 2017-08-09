@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
   <title>Digitally Raised</title>
-  <meta charset="utf-8">
+  <meta charset="utf-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
@@ -23,38 +22,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
     
 <style>
-    body, html, .main {
-    height: 100%;
-}
-
+    
 section {
     min-height: 100%;
 }
@@ -425,19 +396,20 @@ backface-visibility: hidden;
                             <h1>P R O D U C T</h1>
                             <button class="btn btn-default closebtn" onclick="window.location='index.html#portfolio';" >X</button>
                             <hr class="star-primary">
-                            <p class="text-center" style="font-family: Open Sans;">A gallery to showcase photos we've taken of products and our product-based clients.</p><br>
-                            
+                    
+  <p class="text-center" style="font-family: Open Sans;">A gallery to showcase photos we've taken of products and our product-based clients.</p>
+                  
+                            <br>
                      <div class="col-sm-6">
-                         <img src="CJdrinks.jpg" class="img-responsive" style="with:100%" alt=""><br>
+                         <img src="CJdrinks.jpg" class="img-responsive" style="width:100%" alt=""><br>
                             <img src="CJtable.jpg" class="img-responsive" style="width:100%" alt=""><br>
                          <img src="04.jpg" class="img-responsive" style="width:100%" alt=""><br>
                         <img src="4drink.jpg" class="img-responsive" style="width:100%" alt=""><br>
                          <img src="10feet.jpg" class="img-responsive" style="width:100%" alt=""><br>
                             <img src="CJCollage.jpg" class="img-responsive" style="width:100%" alt=""><br>
                          <img src="pineapple.jpg" class="img-responsive" style="width:100%" alt=""><br>
-                             <img src="fwrapburger.jpg" class="img-responsive img-center" alt=""><br>
                          <img src="fhotdog.jpg" class="img-responsive" style="width:100%" alt=""><br>
-                          <img src="fburgerfull.jpg" class="img-responsive" style="width:100%" alt=""><br>
+            
                             </div>
                 
                     <div class="col-sm-6">
@@ -448,8 +420,6 @@ backface-visibility: hidden;
                         <img src="fdrink.jpg" class="img-responsive" style="width:100%" alt=""><br>
                         <img src="yoghurt.jpg" class="img-responsive" style="width:100%" alt=""><br>
                         <img src="sharedrink.jpg" class="img-responsive" style="width:100%" alt=""><br>
-                        <img src="fwrap.jpg" class="img-responsive" style="width:100%" alt=""><br>
-                        <img src="fburger.jpg" class="img-responsive" style="width:100%" alt=""><br>
                         <img src="fdrinks.jpg" class="img-responsive" style="width:100%" alt=""><br>
                             </div>
                 
@@ -462,10 +432,9 @@ backface-visibility: hidden;
                         </div>
         </div>
                     
-
-    
     
 <script>
+
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#home']").on('click', function(event) {
