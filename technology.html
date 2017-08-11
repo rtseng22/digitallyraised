@@ -4,22 +4,13 @@
   <title>Digitally Raised Creations</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Biryani' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>  
-  <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i" rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,700' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i' rel='stylesheet'> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -75,24 +66,6 @@ section {
     padding: 250px 25px;
         
     }
-    
-.video-container {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    }
-    
-video {
-    position: absolute;
-    z-index: -1; /* ensures vid positioned in the background, all elements will be on foreground*/
-    opacity: 0.80; 
-    width: 100%;
-    height: 900px
-    volume: 0;
-    }
 
 h1 { /*--section header--*/
     color:black; 
@@ -124,29 +97,43 @@ h5 /*-- HEADER TEXT --*/ {
     margin-top: 20%;
     letter-spacing: 3px;
     font-size: 90px;
-    font-family: Poppins;
+    font-family: 'Roboto Condensed';
     font-weight: 900;
     }
    
-body {
-      font: Montserrat;
-      font-size: 25px;
-      line-height: 1.5;
-      
-      }
-      
-p {
-        font-size: 18px;
-        font: Open Sans;
+ p {
+        font-size: 19px;
+        font-family: 'Roboto';
+        line-height: 1.5;
         
     }
     
     p1 { /*-- HEADER SUBTEXT --*/
-        font: Monteserrat, sans-serif;
+        font: 'Monteserrat', sans-serif;
         color: white;
         font-size: 22px;
         font-weight: lighter;
     }
+    
+    p2 {
+        font-size: 20px;
+        
+    }
+    
+    p3 /*-- PRE-HEADER TEXT --*/{
+    
+    color: white;
+    z-index: 1; /*be in foreground*/
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20%;
+    letter-spacing: 3px;
+    font-size: 23px;
+    font-family: 'Roboto Condensed';
+    font-weight: 900;
+    }
+    
 
     .margin {margin-bottom: 45px;}
       
@@ -234,8 +221,6 @@ p {
         height: 10%;
         width: 20%;
     }
-    
-    
     
     
  .container-1 {
@@ -399,7 +384,9 @@ backface-visibility: hidden;
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index.html">| HOME |</a>
+      <a onclick="window.location='index.html#home';" class="navbar-brand" href="#home" style="font-size:15px">H</a>
+        <a onclick="window.location='index.html#home';" class="navbar-brand" href="#home"><img src="minilogo.png"></a>
+        <a onclick="window.location='index.html#home';" class="navbar-brand" href="#home" style="font-size:15px">M E</a>
     </div>
        <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -463,10 +450,10 @@ backface-visibility: hidden;
                             <div class="col-sm-4">
                             <img src="lumenari.png" class="img-responsive" alt="">
                                 </div>
-                           <br><p class="text-left" style="font-family:Open Sans; font-size:17px;">Another client of ours is <a href="https://lumenari.co/">Lumenari</a>, a startup company that specializes in customized LED lighting solutions. For Lumenari, we have provided high-quality photos of their products in order to enhance better visuals to boost their social media and online presence. In addition to curating, creating and managing content across their social media platforms, we also provide in-depth analysis and recommendations for their future consideration.<br><br>
+                           <br><p class="text-left">Another client of ours is <a href="https://lumenari.co/">Lumenari</a>, a startup company that specializes in customized LED lighting solutions. For Lumenari, we have provided high-quality photos of their products in order to enhance better visuals to boost their social media and online presence. In addition to curating, creating and managing content across their social media platforms, we also provide in-depth analysis and recommendations for their future consideration.<br><br>
                            Helping our clients develop and grow their audience in the digital age is the ultimate goal of <strong>Digitally Raised</strong>, and we always keep the larger goals in mind when executing our day to day responsibilities.
 
-                        <p class="text-left" style="font-family:Open Sans; font-size:17px;">Below is a short portfolio of photos we've taken to create content for their Instagram profile. Check out their <a href="https://www.instagram.com/lumenari.lighting/">Instagram</a> for more photos!</p>
+                        <p class="text-left">Below is a short portfolio of photos we've taken to create content for their Instagram profile. Check out their <a href="https://www.instagram.com/lumenari.lighting/">Instagram</a> for more photos!</p>
                            <br>
                                       
                      <div class="col-sm-6">
